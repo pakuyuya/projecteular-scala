@@ -9,11 +9,18 @@ object Measure {
     val start = System.currentTimeMillis()
     val task: Future[Unit] = Future {
       f
-
       val end = System.currentTimeMillis()
       println(s"""${ end - start }ms""")
+
+    }
+
+    task onFailure {
+      case t => {
+        println(t.getStackTraceString)
+      }
     }
 
     Await.ready(task, Duration.Inf)
+
   }
 }
