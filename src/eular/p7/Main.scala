@@ -6,7 +6,7 @@ import Math.sqrt
 object Main {
 
   def main(args: Array[String]) = {
-    Measure.ms(() => println("problem 4"))
+    Measure.ms(() => println("problem 7"))
 
     println("answer1");
     Measure.ms(answer1)
