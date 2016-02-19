@@ -16,7 +16,7 @@ object Measure {
 
     task onFailure {
       case t => {
-        println(t.getStackTraceString)
+        println(t.getMessage + t.getStackTraceString)
       }
     }
 
