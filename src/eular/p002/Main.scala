@@ -1,4 +1,4 @@
-package eular.p2
+package eular.p002
 
 import util.Measure
 

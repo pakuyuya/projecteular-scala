@@ -1,4 +1,4 @@
-package eular.p6
+package eular.p006
 
 import util.Measure
 import Math.pow

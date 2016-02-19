@@ -1,4 +1,4 @@
-package eular.p3
+package eular.p003
 
 import util.Measure
 import Math.sqrt
